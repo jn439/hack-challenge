@@ -47,9 +47,8 @@ app.py:
   GET /users/ gets all users
   GET /posts/<int:id>/ gets information about a specific post
   GET /users/<int:id>/ gets information about a specific user
-  GET /posts/filter/ gets all posts of free food with some dietary restrictions
- #  GET /posts/filter/sort/ gets posts of some dietary restrictions sorted by distance
-
+  GET /posts/filter/ gets all posts of food with dietary restrictions specified via query parameters
+  
   POST /posts/ to create a new post
   POST /user/ to create a new user
 
@@ -57,4 +56,3 @@ app.py:
   UPDATE /users/<int:id>/ updates a user with id
 
   DELETE /posts/<int:id>/ to delete a post
-  DELETE /posts/closed/ deletes all food at a location
